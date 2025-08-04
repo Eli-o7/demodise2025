@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #f0f2f5;
+  background-color: #3733ffe3;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -14,10 +14,9 @@ body {
 }
 
 .form-container {
-  background-color: #fff;
+  background-color: #0f0e67;
   padding: 25px 30px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 500px;
 }
@@ -25,21 +24,22 @@ body {
 h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: #333;
+  color: #ffffff;
 }
 
 form label {
   display: block;
   margin-top: 15px;
-  color: #555;
+  color: #dfd9fc;
 }
 
 form input,
 form textarea {
+  background-color: #f0f0f0e1;
   width: 100%;
   padding: 10px;
   margin-top: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #f0f0f0e1;
   border-radius: 4px;
 }
 
@@ -47,14 +47,14 @@ form button {
   margin-top: 20px;
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #3733ffe3;
   border: none;
-  color: white;
+  color: #f6f5fd;
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
 }
 
 form button:hover {
-  background-color: #0056b3;
+  background-color: #3633ff;
 }
